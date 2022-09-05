@@ -2,14 +2,24 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
 
 body {
+    height: 100%;
     font-family: 'Manrope', sans-serif;
     margin: 0;
 }
 
 img {
     display: block;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
