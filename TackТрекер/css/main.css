@@ -62,3 +62,89 @@ display: flex;
 .nav-link:last-child {
     margin-right: 0;
 }
+
+/* MAIN */
+
+.main {
+    
+}
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 197px;
+    padding-bottom: 197px;
+}
+
+.main-content {
+    width: 540px;
+    font-size: 18px;
+}
+
+.main-text {
+    margin-bottom: 32px;
+}
+
+.main-header {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+}
+
+.main-text p {
+    line-height: 1.78;
+    margin: 0;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    height: 62px;
+    background-color: #8C30F5;
+    text-decoration: none;
+    color: #E5E9F2;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #0B0D17;
+    height: 72px;
+}
+
+.footer-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: #D9DBE1;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+.footer-socials {
+
+}
