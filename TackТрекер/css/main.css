@@ -127,6 +127,7 @@ display: flex;
 .footer {
     background: #0B0D17;
     height: 72px;
+    color: #D9DBE1;
 }
 
 .footer-container {
@@ -138,13 +139,13 @@ display: flex;
 }
 
 .footer-copyright {
-    color: #D9DBE1;
-}
-
-.footer-copyright p {
-    margin: 0;
+    font-size: 14px;
 }
 
 .footer-socials {
+   display: flex;
+}
 
+.footer-socials-item {
+    margin-left: 16px;
 }
