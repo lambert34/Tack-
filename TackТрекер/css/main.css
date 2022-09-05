@@ -1,3 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2; 
+}
+.header-container {
+   width: 1110px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+margin-right: 40px;
+}
+
+.nav {
+color: #18191F;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.43;
+}
+
+.appstore {
+margin-left: auto;
+display: flex;
+}
+
+.appstore-item {
+    margin-left: 12px;
+}
+
+.appstore-item:first-child {
+    margin-left: 12px;
+}
+
+.nav-link {
+    color: #18191F;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.nav-link:hover {
+    color: #8C30F5;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
 }
